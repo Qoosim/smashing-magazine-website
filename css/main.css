@@ -105,6 +105,10 @@
     justify-content: space-evenly;
 }
 
+.inner-fourth {
+    margin: 0 20px;
+}
+
 .fourth1 {
     height: 350px;
     border: 2px solid black;
@@ -140,4 +144,26 @@
     width: 920px;
     height: 520px;
     margin: 20px auto;
+}
+
+.person-week {
+    margin: 50px 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.week {
+    margin: 0 20px;
+    border: 2px solid black;
+}
+
+.week1 {
+    height: 350px;
+    flex: 1;
+}
+
+.week2 {
+    height: 250px;
+    flex: 3;
 }
