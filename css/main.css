@@ -20,3 +20,21 @@
     border: 2px solid white;
     margin: 10px;
 }
+
+.first-section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.left {
+    background: #94291f;
+    height: 500px;
+    flex: 1;
+}
+
+.right {
+    background: #a92f23;
+    height: 500px;
+    flex: 1;
+}
