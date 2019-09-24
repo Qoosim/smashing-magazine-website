@@ -124,8 +124,20 @@
 
 .ethics {
     background: #009245;
-    height: 600px;
+    height: 1027px;
     text-align: center;
     font-size: 30px;
     color: #fff;
+}
+
+.ethics button {
+    padding: 20px 50px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.img {
+    width: 920px;
+    height: 520px;
+    margin: 20px auto;
 }
