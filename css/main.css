@@ -42,6 +42,17 @@
     background: white;
     text-align: center;
     word-spacing: 20px;
+    padding: 0.3em 0.4em;
+    line-height: 1.5em;
+    -webkit-box-decoration-break: clone;
+}
+
+.first-section button {
+    position: absolute;
+    top: 30px;
+    right: 100px;
+    padding: 10px 30px;
+    border-radius: 7px;
 }
 
 .left {
@@ -72,4 +83,36 @@
     background: #94291f;
     height: 550px;
     flex: 1;
+}
+
+.third-section {
+    margin: 20px 50px;
+    display: grid;
+    grid-gap: 50px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: 600px;
+}
+
+.inner-sect {
+    border: 2px solid black;
+}
+
+.fourth-article {
+    margin: 20px 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.fourth1 {
+    height: 350px;
+    border: 2px solid black;
+    flex: 1;
+}
+
+.fourth2 {
+    height: 800px;
+    border: 2px solid black;
+    flex: 2;
 }
