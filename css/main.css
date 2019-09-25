@@ -200,6 +200,44 @@
     text-decoration: none;
     text-transform: uppercase;
     font: 400 18px/22px 'Roboto', sans-serif;
+    color: #666;
     border-bottom: 5px solid #d33a2c;
     padding-bottom: 10px;
+}
+
+.twitter-link a:hover {
+    color: #d33a2c;
+}
+
+.books {
+    position: relative;
+    height: 400px;
+    background: #d33a2c;
+    margin-bottom: 100px;
+}
+
+.img {
+    width: 300px;
+    height: 405px;
+    position: absolute;
+    top: -100px;
+    right: 60px;
+}
+
+.btn {
+    position: absolute;
+    left: 50px;
+    bottom: 50px;
+    background: #fff;
+    padding: 18px 25px;
+    font: 700 25px/22px 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #267dcc;
+    border-radius: 10px;
+    border: 1px solid #fff;
+    cursor: pointer;
+    /* transform: (-13deg); */
+}
+
+.btn:hover {
+    color: #d33a2c;
 }
