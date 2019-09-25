@@ -191,14 +191,15 @@
     flex-basis: 600px;
 }
 
+.twitter-link {
+    margin: 70px 500px;
+    text-align: center;
+}
 
-/* 
-.hero2 {}
-
-.hero3 {}
-
-.hero4 {}
-
-.hero5 {}
-
-.hero6 {} */
+.twitter-link a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font: 400 18px/22px 'Roboto', sans-serif;
+    border-bottom: 5px solid #d33a2c;
+    padding-bottom: 10px;
+}
