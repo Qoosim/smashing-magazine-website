@@ -103,6 +103,7 @@
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-evenly;
+    height: 600px;
 }
 
 .inner-fourth {
@@ -110,13 +111,12 @@
 }
 
 .fourth1 {
-    height: 350px;
     border: 2px solid black;
     flex: 1;
 }
 
 .fourth2 {
-    height: 600px;
+    background-color: #d33a2c;
     border: 2px solid black;
     flex: 2;
 }
@@ -128,6 +128,7 @@
 
 .ethics {
     background: #009245;
+    background-image: linear-gradient(#009245 50%,#8bc53f 100%);
     height: 1027px;
     text-align: center;
     font-size: 30px;
@@ -140,7 +141,7 @@
     margin-bottom: 20px;
 }
 
-.img {
+.img-ethics {
     width: 920px;
     height: 520px;
     margin: 20px auto;
@@ -218,9 +219,9 @@
 
 .img {
     width: 300px;
-    height: 405px;
+    height: 350px;
     position: absolute;
-    top: -100px;
+    top: -60px;
     right: 60px;
 }
 
@@ -240,4 +241,57 @@
 
 .btn:hover {
     color: #d33a2c;
+}
+
+.inner-sect h4 {
+    color: #333333;
+    font-weight: lighter
+}
+
+.inner-sect p {
+    font: 770 25px Arial, Helvetica, sans-serif; 
+    color: #333333;
+    margin-top: 15px;
+    margin-bottom: 25px;
+    line-height: 33px;
+    letter-spacing: 1px;
+}
+.inner-sect ul {
+    margin-left: 50px;
+    list-style: none;
+    font-size: 24px;
+}
+
+ul li::before {
+    content: "\2022"; 
+    color: #d33a2c; 
+    font-weight: bolder; 
+    display: inline-block; 
+    width: 1em; 
+    margin-left: -1em;
+}
+
+.inner-sect li {
+    margin-top: 22px;
+    color: #267dcc;
+    text-decoration: underline #267dcc;
+    cursor: pointer;
+}
+
+.guide-flex {
+    height: 600px;
+}
+.meow-cat {
+    padding-top: 1em;
+    margin-top: 120px;
+    height: 450px;
+    width: 100%;
+}
+
+.browse {
+    background: #d33a2c ;
+    height: 960px;
+    text-align: center;
+    font-size: 30px;
+    color: #fff;
 }
