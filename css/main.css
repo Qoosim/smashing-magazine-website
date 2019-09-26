@@ -96,10 +96,6 @@ body {
     grid-auto-rows: 600px;
 }
 
-.inner-sect {
-    /* border: 2px solid black; */
-}
-
 .fourth-article {
     margin: 20px 50px;
     display: flex;
@@ -296,7 +292,6 @@ body {
 
 .letters {
     height: 800px;
-    /* border: 2px solid black; */
 }
 
 .n-letter1 {
@@ -387,6 +382,15 @@ body {
     padding-top: 70px;
     word-spacing: 5px;
 }
+.mega-topics p {
+    color: #fff;
+    word-spacing: 5px;
+    font: 18px/26px 'Times New Roman', Times, serif;
+}
+
+.mega-topics p a {
+    color: #fff;
+}
 
 .variety-lists {
     padding: 40px 30px;
@@ -415,4 +419,10 @@ body {
     font-size: 30px;
     font-weight: bold;
     margin-right: 9px;
+}
+.footer-nav {
+    margin-right: 10px;
+    margin-top: -40px;
+    font: 18px/39px 'Times New Roman', Times, serif;
+    padding-bottom: 10px;
 }
