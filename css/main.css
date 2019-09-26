@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body {
+    background: #f6f3f2;
+}
+
 .container {
     background: #d33a2c;
     height: 200px;
@@ -93,7 +97,7 @@
 }
 
 .inner-sect {
-    border: 2px solid black;
+    /* border: 2px solid black; */
 }
 
 .fourth-article {
@@ -246,29 +250,30 @@
 }
 
 .inner-sect p {
-    font: 770 25px Arial, Helvetica, sans-serif; 
+    font: 770 25px Arial, Helvetica, sans-serif;
     color: #333333;
     margin-top: 15px;
     margin-bottom: 25px;
     line-height: 33px;
     letter-spacing: 1px;
 }
-ul {
+
+.list-div {
     margin-left: 50px;
     list-style: none;
     font-size: 24px;
 }
 
-ul li::before {
+.list-div li::before {
     content: "\2022";
-    color: #d33a2c; 
-    font-weight: bolder; 
-    display: inline-block; 
-    width: 1em; 
+    color: #d33a2c;
+    font-weight: bolder;
+    display: inline-block;
+    width: 1em;
     margin-left: -1em;
 }
 
-li {
+.list-div li {
     margin-top: 22px;
     color: #267dcc;
     text-decoration: underline #267dcc;
@@ -291,18 +296,20 @@ li {
 
 .letters {
     height: 800px;
-    border: 2px solid black;
+    /* border: 2px solid black; */
 }
 
 .n-letter1 {
     flex: 1;
 }
+
 .n-letter1 h4 {
     color: #333333;
     font-weight: lighter
 }
+
 .n-letter1 p {
-    font: 770 25px Arial, Helvetica, sans-serif; 
+    font: 770 25px Arial, Helvetica, sans-serif;
     color: #333333;
     margin-top: 15px;
     margin-bottom: 25px;
@@ -311,12 +318,16 @@ li {
 }
 
 .n-letter2 {
+    position: relative;
     flex: 2;
     background: #d33a2c;
     border-radius: 10px;
 }
 
 .letter-btn {
+    position: absolute;
+    left: 200px;
+    bottom: 120px;
     width: 450px;
     height: 60px;
     background: #fff;
@@ -363,7 +374,45 @@ li {
     color: #d33a2c;
 }
 
-.maga-topics {
+.mega-topics {
     height: 700px;
     background: #d33a2c;
+}
+
+.mega-topics h4 {
+    text-transform: uppercase;
+    font: 700 16px/22px 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    color: #fff;
+    padding-top: 70px;
+    word-spacing: 5px;
+}
+
+.variety-lists {
+    padding: 40px 30px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.variety-lists li {
+    display: inline;
+    text-decoration: none;
+}
+
+.variety-lists li a {
+    font-size: 25px;
+    font-weight: lighter;
+    color: #fff;
+    padding: 10px 0;
+    text-decoration: none;
+    line-height: 2.2em;
+    margin-right: 7px;
+}
+
+.variety-lists li a::before {
+    content: "\2022";
+    color: #6a1d16;
+    font-size: 30px;
+    font-weight: bold;
+    margin-right: 9px;
 }
