@@ -302,3 +302,26 @@
     font-weight: bold;
     color: #267dcc;
 }
+
+.all-articles {
+    margin: 70px 500px;
+    text-align: center;
+}
+
+.all-articles a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font: 400 18px/22px 'Roboto', sans-serif;
+    color: #666;
+    border-bottom: 5px solid #d33a2c;
+    padding-bottom: 10px;
+}
+
+.all-articles a:hover {
+    color: #d33a2c;
+}
+
+.maga-topics {
+    height: 700px;
+    background: #d33a2c;
+}
