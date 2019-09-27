@@ -18,9 +18,79 @@ body {
     align-items: center;
 }
 
+.items1 {
+    position: relative;
+    flex: 1.5;
+}
+
+.interior1 {
+    position: absolute;
+    top: 50px;
+    left: 40px;
+    background: #f6f3f2;
+    width: 50px;
+    height: 50px;
+}
+
+.interior2 {
+    position: absolute;
+    top: 55px;
+    left: 100px;
+    line-height: 30px;
+}
+
+.interior2 h3 {
+    color: #fff;
+    font: 700 25px/22px 'Segoe UI', Tahoma, Verdana, sans-serif;
+    text-transform: uppercase;
+    margin-bottom: 4px;
+}
+
+.interior2 h4 {
+    color: #fff;
+    font: 19px/22px 'Courier New', Courier, monospace;
+    text-transform: uppercase;
+}
+
+.items2,
+.items3 {
+    position: relative;
+}
+
+.interiorAr1 {
+    position: absolute;
+    top: 10px;
+    left: 60px;
+    background: #fff;
+    width: 38px;
+    height: 43px;
+}
+
+.interiorAr2 {
+    position: absolute;
+    top: 70px;
+    left: 20px;
+    text-align: center;
+    color: #fff;
+}
+
+.interiorAr2 h4 {
+    font-size: 13px;
+    color: #fff;
+    margin-top: 10px;
+}
+
+.items2,
+.items3,
+.items4,
+.items5,
+.items6,
+.items7 {
+    flex: 1;
+}
+
 .box {
     height: 150px;
-    flex-basis: 25%;
     border: 2px solid white;
     margin: 10px;
 }
@@ -135,12 +205,6 @@ body {
     width: 350px;
     height: 250px;
 }
-
-
-/* 
-.flatfile {
-    background: #006fc6;
-} */
 
 .article-grid,
 .article-flex {
