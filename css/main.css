@@ -95,7 +95,6 @@ body {
 
 .box {
     height: 150px;
-    border: 2px solid white;
     margin: 10px;
 }
 
@@ -136,15 +135,29 @@ body {
 }
 
 #abs {
-    width: 400px;
+    width: 300px;
     margin: 0 auto;
     position: absolute;
     top: 80px;
-    left: 480px;
+    left: 520px;
     color: black;
     background: white;
     text-align: center;
-    word-spacing: 20px;
+    word-spacing: 5px;
+    padding: 0.3em 0.4em;
+    line-height: 1.5em;
+    box-decoration-break: clone;
+}
+
+#art {
+    width: 100px;
+    margin: 0 auto;
+    position: absolute;
+    top: 120px;
+    left: 620px;
+    color: black;
+    background: white;
+    text-align: center;
     padding: 0.3em 0.4em;
     line-height: 1.5em;
     box-decoration-break: clone;
