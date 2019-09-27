@@ -220,7 +220,22 @@ body {
 .left p {
     padding: 370px 30px;
     text-indent: 20px;
+}
+
+.more {
+    position: absolute;
+    font-size: 50px;
     color: #fff;
+    margin-top: -330px;
+    text-decoration: none;
+}
+
+.more2 {
+    position: absolute;
+    font-size: 50px;
+    color: #fff;
+    margin-top: -80px;
+    text-decoration: none;
 }
 
 .right {
@@ -339,6 +354,12 @@ body {
     margin: 0 20px;
 }
 
+.member01 {
+    font-size: 16px;
+    line-height: 40px;
+    flex: 1;
+}
+
 .member1 {
     background: #006fc6;
     height: 350px;
@@ -357,6 +378,57 @@ body {
     height: 650px;
     border-radius: 10px;
     flex: 2;
+}
+
+.webinar {
+    padding: 10px 120px;
+    height: 650px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+}
+
+.webinar h1 {
+    margin-top: 250px;
+    font-size: 22px;
+}
+
+.webinar h1 a {
+    font-size: 45px;
+    color: #fff;
+}
+
+.webinar p {
+    margin-top: 30px;
+    color: #fff;
+    line-height: 30px;
+    font-size: 20px;
+}
+
+.webinar p a {
+    color: #fff;
+}
+
+.explore {
+    margin: 20px 0 20px 0;
+    text-decoration: none;
+    background: #fff;
+    width: 250px;
+    border-radius: 10px;
+    padding: 15px 10px;
+    align-self: center;
+    font: 400 25px/22px Georgia, 'Times New Roman', Times, serif;
+}
+
+small {
+    color: #fff;
+    font-size: 16px;
+}
+
+small a {
+    color: #fff;
 }
 
 .member2-img {
@@ -494,11 +566,15 @@ body {
 
 .inner-sect p {
     font: 770 25px Arial, Helvetica, sans-serif;
-    color: #333333;
+    /* color: #333333; */
     margin-top: 15px;
     margin-bottom: 25px;
     line-height: 33px;
     letter-spacing: 1px;
+}
+
+.lorem {
+    color: #fff;
 }
 
 .list-div {
