@@ -526,13 +526,39 @@ small a {
     height: 1027px;
     text-align: center;
     font-size: 30px;
+    line-height: 1.7em;
     color: #fff;
 }
 
+.ethics h2 {
+    margin-bottom: 20px;
+}
+
+.ethics h2 a {
+    color: #fff;
+}
+
+.ethics h4 {
+    font: 600 18px/25px 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    text-transform: uppercase;
+}
+
 .ethics button {
-    padding: 20px 50px;
+    font: 400 25px/18px 'Noto Sans TC', sans-serif;
+    padding: 18px 30px;
     margin-top: 20px;
     margin-bottom: 20px;
+    border: none;
+    border-radius: 10px;
+    color: #006fc6;
+    background: #fff;
+    cursor: pointer;
+}
+
+.ethics button:hover {
+    color: red
 }
 
 .smash-img {
