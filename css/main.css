@@ -696,10 +696,41 @@ span {
     right: 60px;
 }
 
-.btn {
+.book-contents {
     position: absolute;
+    top: 40px;
     left: 50px;
-    bottom: 50px;
+    font-size: 14px;
+    color: #fff;
+}
+
+.book-contents h3 {
+    font-size: 18px;
+    text-transform: uppercase;
+    line-height: 40px;
+    font-family: 'Playfair Display SC', serif;
+    word-spacing: 2px;
+    letter-spacing: 4px;
+}
+
+.book-contents h1 {
+    font: 600 45px/35px 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-transform: capitalize;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+.book-contents h1 a {
+    color: #fff;
+    text-decoration: underline #e78077;
+}
+
+.book-contents p {
+    font: 22px/37px 'Times New Roman', Times, serif;
+}
+
+.btn {
+    margin-top: 30px;
     background: #fff;
     padding: 18px 25px;
     font: 700 25px/22px 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -770,7 +801,7 @@ span {
 }
 
 .newsletter {
-    margin: 50px 50px;
+    margin: 50px 50px 20px 50px;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
