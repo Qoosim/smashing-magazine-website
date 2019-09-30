@@ -226,7 +226,7 @@ body {
     position: absolute;
     font-size: 50px;
     color: #fff;
-    margin-top: -330px;
+    margin-top: -220px;
     text-decoration: none;
 }
 
@@ -234,7 +234,7 @@ body {
     position: absolute;
     font-size: 50px;
     color: #fff;
-    margin-top: -80px;
+    margin-top: 70px;
     text-decoration: none;
 }
 
@@ -377,6 +377,27 @@ body {
     top: -25px;
     left: 80px;
     border-radius: 10px;
+}
+
+.f-link {
+    position: absolute;
+    font-size: 40px;
+    /* color: #fff; */
+    margin-top: 50px;
+    text-decoration: none;
+}
+
+.f-link:hover {
+    padding: 15px 20px;
+    color: #fff;
+    background: #006fc6;
+}
+
+.ff-link {
+    position: absolute;
+    font-size: 40px;
+    margin-top: 15px;
+    text-decoration: none;
 }
 
 .flatfile {
@@ -671,17 +692,26 @@ span {
     font-weight: lighter
 }
 
-.inner-sect p {
-    font: 770 25px Arial, Helvetica, sans-serif;
-    /* color: #333333; */
-    margin-top: 15px;
+.para {
+    margin-top: 40px;
+}
+
+.para h2 {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.para p {
+    font: 770 20px/40px Arial, Helvetica, sans-serif;
+    color: #333;
+    margin-top: 20px;
     margin-bottom: 25px;
-    line-height: 33px;
     letter-spacing: 1px;
 }
 
 .lorem {
     color: #fff;
+    font: 18px/30px Arial, Helvetica, sans-serif;
 }
 
 .list-div {
