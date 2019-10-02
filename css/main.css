@@ -59,6 +59,7 @@ body {
 .items6,
 .items7 {
     position: relative;
+    flex: 1;
 }
 
 .interiorAr1 {
@@ -82,15 +83,6 @@ body {
     font-size: 13px;
     color: #fff;
     margin-top: 10px;
-}
-
-.items2,
-.items3,
-.items4,
-.items5,
-.items6,
-.items7 {
-    flex: 1;
 }
 
 .box {
@@ -131,6 +123,9 @@ body {
 
 .second-section {
     position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
 }
 
 .cla {
@@ -268,12 +263,6 @@ body {
     color: #fff;
 }
 
-.second-section {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-}
-
 .left2 h2 {
     position: absolute;
     top: 100px;
@@ -382,7 +371,6 @@ body {
 .f-link {
     position: absolute;
     font-size: 40px;
-    /* color: #fff; */
     margin-top: 50px;
     text-decoration: none;
 }
@@ -422,6 +410,39 @@ body {
     font-size: 18px;
     font-family: 'Times New Roman', Times, serif;
     margin-bottom: 30px;
+}
+
+small a {
+    color: #fff;
+}
+
+.twitter-link a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font: 400 18px/22px 'Roboto', sans-serif;
+    color: #666;
+    border-bottom: 5px solid #d33a2c;
+    padding-bottom: 10px;
+}
+
+.useful-tips a {
+    text-decoration: underline #e78077;
+}
+
+.all-articles a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font: 400 18px/22px 'Roboto', sans-serif;
+    color: #666;
+    border-bottom: 5px solid #d33a2c;
+    padding-bottom: 10px;
+}
+
+.heros h3 a,
+span {
+    font-size: 16px;
+    color: #666;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .flatfile span {
@@ -504,10 +525,6 @@ small {
     font-size: 16px;
 }
 
-small a {
-    color: #fff;
-}
-
 .member2-img {
     position: absolute;
     top: 30px;
@@ -558,7 +575,7 @@ small a {
 }
 
 .ethics button:hover {
-    color: red
+    color: red;
 }
 
 .smash-img {
@@ -641,13 +658,6 @@ small a {
     border-radius: 8px;
 }
 
-.heros h3 a,
-span {
-    font-size: 16px;
-    color: #666;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-
 .heros h1 a {
     font-size: 25px;
     color: #333;
@@ -663,18 +673,34 @@ span {
     color: #267dcc;
 }
 
+.book-contents h1 a {
+    color: #fff;
+    text-decoration: underline #e78077;
+}
+
 .twitter-link {
     margin: 70px 500px;
     text-align: center;
 }
 
-.twitter-link a {
+.s-letters h2 a {
+    color: #fff;
+    font-size: 45px;
+    text-decoration: underline #e78077;
+}
+
+.mega-topics p a {
+    color: #fff;
+}
+
+.variety-lists li a {
+    font-size: 25px;
+    font-weight: lighter;
+    color: #fff;
+    padding: 10px 0;
     text-decoration: none;
-    text-transform: uppercase;
-    font: 400 18px/22px 'Roboto', sans-serif;
-    color: #666;
-    border-bottom: 5px solid #d33a2c;
-    padding-bottom: 10px;
+    line-height: 2.2em;
+    margin-right: 7px;
 }
 
 .twitter-link a:hover {
@@ -720,11 +746,6 @@ span {
     margin-bottom: 25px;
 }
 
-.book-contents h1 a {
-    color: #fff;
-    text-decoration: underline #e78077;
-}
-
 .book-contents p {
     font: 22px/37px 'Times New Roman', Times, serif;
 }
@@ -745,8 +766,8 @@ span {
 }
 
 .inner-sect h4 {
-    color: #333333;
-    font-weight: lighter
+    color: #333;
+    font-weight: lighter;
 }
 
 .para {
@@ -816,13 +837,13 @@ span {
 }
 
 .n-letter1 h4 {
-    color: #333333;
-    font-weight: lighter
+    color: #333;
+    font-weight: lighter;
 }
 
 .n-letter1 p {
     font: 770 25px Arial, Helvetica, sans-serif;
-    color: #333333;
+    color: #333;
     margin-top: 15px;
     margin-bottom: 25px;
     line-height: 33px;
@@ -844,10 +865,6 @@ span {
     text-align: center;
 }
 
-.useful-tips a {
-    text-decoration: underline #e78077;
-}
-
 .s-letters {
     position: absolute;
     top: 50px;
@@ -855,12 +872,6 @@ span {
     text-align: center;
     color: #fff;
     line-height: 30px;
-}
-
-.s-letters h2 a {
-    color: #fff;
-    font-size: 45px;
-    text-decoration: underline #e78077;
 }
 
 .s-letters p {
@@ -905,15 +916,6 @@ span {
     text-align: center;
 }
 
-.all-articles a {
-    text-decoration: none;
-    text-transform: uppercase;
-    font: 400 18px/22px 'Roboto', sans-serif;
-    color: #666;
-    border-bottom: 5px solid #d33a2c;
-    padding-bottom: 10px;
-}
-
 .all-articles a:hover {
     color: #d33a2c;
 }
@@ -939,10 +941,6 @@ span {
     font: 18px/26px 'Times New Roman', Times, serif;
 }
 
-.mega-topics p a {
-    color: #fff;
-}
-
 .variety-lists {
     padding: 40px 30px;
     text-align: center;
@@ -952,16 +950,6 @@ span {
 .variety-lists li {
     display: inline;
     text-decoration: none;
-}
-
-.variety-lists li a {
-    font-size: 25px;
-    font-weight: lighter;
-    color: #fff;
-    padding: 10px 0;
-    text-decoration: none;
-    line-height: 2.2em;
-    margin-right: 7px;
 }
 
 .variety-lists li a::before {
